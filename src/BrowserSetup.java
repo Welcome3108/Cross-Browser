@@ -23,6 +23,9 @@ public class BrowserSetup {
 		WebElement gender=driver.findElement(By.xpath("//input[@id='u_0_5_WP']"));
 		gender.click();
 		
+		driver.quit();
+		
+		
 		
 		
 
